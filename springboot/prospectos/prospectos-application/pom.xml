@@ -101,12 +101,6 @@
 			<version>${modelmapper-version}</version>
 		</dependency>
 
-		<dependency>
-			<groupId>com.example</groupId>
-			<artifactId>demo</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-
 	</dependencies>
 	<!-- Build -->
 
@@ -123,6 +117,7 @@
 					<execution>
 						<goals>
 							<goal>build-info</goal>
+							<goal>repackage</goal>
 						</goals>
 					</execution>
 				</executions>

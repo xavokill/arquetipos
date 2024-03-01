@@ -50,7 +50,7 @@ public class ApplicationServiceImpl implements ApplicationService {
   private String telefonoOrigen;
 
   /** The email from. */
-  @Value("${email.from}")
+  @Value("${mail.from}")
   private String emailFrom;
 
   /** The Constant TELEFONO_DESTINATARIO. */

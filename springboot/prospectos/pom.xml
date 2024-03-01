@@ -35,6 +35,9 @@
 		<!-- add the rest controller list for swaggaer -->
 		<rest-locations>mx.com.backend.prospectos.controller</rest-locations>
 		<spring.cloud.version>Finchley.RELEASE</spring.cloud.version>
+		
+		<maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
 
 	</properties>
 

@@ -35,6 +35,9 @@
 		<!-- add the rest controller list for swaggaer -->
 		<rest-locations>mx.com.backend.asesores.controller</rest-locations>
 		<spring.cloud.version>Finchley.RELEASE</spring.cloud.version>
+		<!-- Correción a referencias Java 5 -->
+		<maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
 
 	</properties>
 
